@@ -1,0 +1,16 @@
+{
+  "name": "async",
+  "private": true,
+  "dependencies": {
+    "@tinyhttp/app": "^2.0.15",
+    "ioredis": "^4.28.2",
+    "milliparsec": "^2.2.0",
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1"
+  },
+  "type": "module",
+  "module": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
